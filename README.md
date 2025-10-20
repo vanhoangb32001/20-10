@@ -29,6 +29,23 @@ Or run directly with npx:
 npx sass --watch style.scss:style.css
 ```
 
+To run the React development server (Vite):
+
+1. Install dependencies:
+
+```powershell
+npm install
+```
+
+2. Start dev server:
+
+```powershell
+npm run dev
+```
+
+This will open a Vite dev server at http://localhost:5173 by default.
+
+
 ### Map SCSS file with HTML
 
 Link the generated `style.css` in your HTML (example `index.html`):
